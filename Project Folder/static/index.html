@@ -29,7 +29,7 @@
          speed: document.querySelector('#speed').value 
         }
 
-        let response = await fetch('http://localhost:5000/powerproduction', {
+        let response = await fetch('http://localhost:5000/prediction/power', {
                 method: 'POST', // or 'PUT'
                 headers: {
                     'Content-Type': 'application/json',
