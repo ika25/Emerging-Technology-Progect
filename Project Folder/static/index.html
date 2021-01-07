@@ -1,0 +1,47 @@
+ <html>
+
+<title>Prediction : Predict power with wind speed</title>
+<body style="background-color:powderblue;"> 
+<h2>Trained Data is used with provided dataset.</h2>
+ 
+
+ <form class="container center_div" id="formElem">
+        <div>
+          <label>Enter  wind speed:</label>
+          <input type="text" id="speed"><br/><br/><br/>
+		   <label  id='result' style="background-color:orange;" >Result Power from Server:</label> <b id="visitorcurrent" style="background-color:yellow;">0</b><br/>
+        </div>
+		 <div><br/><br/>
+         
+        </div>
+     <button type="submit">Fetch power</button>
+ </form>
+
+<div id="power"></div>
+
+<script>
+    formElem.onsubmit = async (e) => {
+      e.preventDefault();
+      var form = document.querySelector("#formElem");
+     // var form = document.forms[0];
+
+        data = {
+         speed: document.querySelector('#speed').value 
+        }
+
+        let response = await fetch('http://localhost:5000/powerproduction', {
+                method: 'POST', // or 'PUT'
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+        })
+
+        let text = await response.text(); // read response body as text
+        document.querySelector("#visitorcurrent").innerHTML = text;
+    }
+	 
+	 
+ 
+    </script>
+</body>
