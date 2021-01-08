@@ -1,6 +1,6 @@
 """
 # run web service
-set FLASK_APP=web-service.py
+set FLASK_APP=webService.py
 python -m flask run
 """
 
@@ -15,7 +15,7 @@ app = Flask(__name__)
 def home():
     return app.send_static_file('index.html')
 
-
+# method to respond with prediction
 @app.route("/prediction/power", methods=["POST"])
 def powerproduction():
     speed = float(request.get_json()["speed"])
