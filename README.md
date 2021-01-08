@@ -6,22 +6,22 @@ This project objective is to predict power generated with input of wind speed. M
 
 ## Technologies/Libraries
 
--Python
--Pandas
--Matplotlib
--Tensorflow
--Numpy
--Flask
--IDE (Jupyter Notebook/Pycharm)
--Html
--Javascript
+- Python
+- Pandas
+- Matplotlib
+- Tensorflow
+- Numpy
+- Flask
+- IDE (Jupyter Notebook)
+- Html
+- Javascript
 
 # Project Overview
 The project contians data set which shall be trained with the models developed with Jupyter Notebook.
 Below are the models used in the application
--Building a Sequential Model that has a Sigmoid and Linear Layer
--Building a Sequential Model that has Linear Layer.
--set the data into Numpy arrays
+- Building a Sequential Model that has a Sigmoid and Linear Layer
+- Building a Sequential Model that has Linear Layer.
+- set the data into Numpy arrays
 
 The models are trained ,predictive model is saved . The models are revised and comporaed with the graphical representation and the suitable model is selected to be used in the application. The three models are used  by the API service to provide the predicted value to the requestor.
 
@@ -79,7 +79,7 @@ $ jupyter notebook
 ## How to Execute
 Models are generated using the data sets derived with the sample data and trained models.
 
-Exeucte the web service with Python IDE Pycharm or conosle python command.
+Exeucte the web service with conosle python command.
 
 Webservice shold have started on port 5000.  In webbrowser use the url http://localhost:5000/
 
@@ -114,7 +114,7 @@ pip install Flask
 ```
 
 # Conclusion
-project was 
+Project was challenging i traied best of my ability to complete minimum requremetns, when i started project few weeks back i realised structure of project was not according to the project requirement and It was not goint in right direction and had to change few things because of that having not much time left for this project was stressful. I really had to do lot of research online to understand project requirements.
 
 # References
 
