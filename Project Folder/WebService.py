@@ -19,10 +19,29 @@ def home():
 @app.route("/prediction/power", methods=["POST"])
 def powerproduction():
     speed = float(request.get_json()["speed"])
-    model = krs.models.load_model("newmodel3.h5")
+    model = krs.models.load_model("newmodel.h5")
     prediction = model.predict([speed])
     preds = prediction.tolist()
-    return {'prediction': preds[0]}
+
+    print(preds[0])
+
+    speed1 = float(request.get_json()["speed"])
+    model1 = krs.models.load_model("newmodel3.h5")
+    prediction1 = model.predict([speed])
+    preds1 = prediction.tolist()
+    
+    print(preds1[0])
+    
+    speed2 = float(request.get_json()["speed"])
+    model2 = krs.models.load_model("newmodel2.h5")
+    prediction2 = model.predict([speed])
+    preds2 = prediction.tolist()
+    
+    print(preds2[0])
+    
+    res = "Model :%s  Model 2: %s  Model 3 :%s" % (preds[0], preds1[0], preds2[0])
+    
+    return res
 
 
 if __name__ == '__main__':
