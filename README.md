@@ -70,6 +70,24 @@ def powerproduction():
     
     return res
 
+## How to Execute
+Models are generated using the data sets derived with the sample data and trained models.
+
+Exeucte the web service with Python IDE Pycharm or conosle python command.
+
+Webservice shold have started on port 5000.  In webbrowser use the url http://localhost:5000/
+
+This shall open the index.html with a text field to enter the wind speed and button to submit
+
+After submitting the request will route to the webservice with the input wind speed.
+
+Web service shall use the three models to fetch the predicted value.
+
+All the three predicted values are sent back to the browser to dispaly
+
+Finally shall show result of predicted power generated predicted with the 3 models.
+
+
 # References
 https://stackabuse.com/deep-learning-in-keras-building-a-deep-learning-model/
 https://keras.io/guides/sequential_model/
