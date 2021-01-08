@@ -27,15 +27,15 @@ def powerproduction():
 
     speed1 = float(request.get_json()["speed"])
     model1 = krs.models.load_model("newmodel3.h5")
-    prediction1 = model.predict([speed])
-    preds1 = prediction.tolist()
+    prediction1 = model1.predict([speed])
+    preds1 = prediction1.tolist()
     
     print(preds1[0])
     
     speed2 = float(request.get_json()["speed"])
     model2 = krs.models.load_model("newmodel2.h5")
-    prediction2 = model.predict([speed])
-    preds2 = prediction.tolist()
+    prediction2 = model2.predict([speed])
+    preds2 = prediction2.tolist()
     
     print(preds2[0])
     

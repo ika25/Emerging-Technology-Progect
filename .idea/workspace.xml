@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b33bdb2-7383-4726-bfd5-bfe5551b6f2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project Folder/WebService.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project Folder/WebService.py" afterDir="false" />
-    </list>
+    <list default="true" id="2b33bdb2-7383-4726-bfd5-bfe5551b6f2c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project Folder/WebService.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="37" column="58" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="59" />
+            <state relative-caret-position="342">
+              <caret line="41" column="58" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -126,7 +123,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43698853" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43698853" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -145,8 +142,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Project Folder/WebService.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="37" column="58" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="59" />
+        <state relative-caret-position="342">
+          <caret line="41" column="58" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="59" />
         </state>
       </provider>
     </entry>
