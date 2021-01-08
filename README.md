@@ -26,7 +26,7 @@ Below are the models used in the application
 The models are trained ,predictive model is saved . The models are revised and comporaed with the graphical representation and the suitable model is selected to be used in the application. The three models are used  by the API service to provide the predicted value to the requestor.
 
 
-# Accuracy to Data Frame
+## Accuracy to Data Frame
 model3Acc = pd.DataFrame(m3history.history['accuracy'], columns=['Model Accuracy ='])
  
 print("Over 500 Epochs the Model has an accuracy of:")
@@ -47,7 +47,7 @@ plt.ylabel('Loss')
 plt.xlabel('Epoch')
 plt.legend(['Train'], loc='upper right')
 
-# Web Service
+## Web Service
 
 @app.route("/prediction/power", methods=["POST"])
 def powerproduction():
@@ -85,7 +85,7 @@ https://keras.io/examples/vision/mnist_convnet/
 https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam
 https://www.tensorflow.org/guide/keras/train_and_evaluate
 https://machinelearningmastery.com/display-deep-learning-model-training-history-in-keras/
-https://machinelearningmastery.com/save-load-keras-deep-learning-models/ ### 
+https://machinelearningmastery.com/save-load-keras-deep-learning-models/ 
 
 
 
