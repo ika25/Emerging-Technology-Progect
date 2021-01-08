@@ -10,6 +10,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-ENV FLASK_APP=web-service.py
+ENV FLASK_APP=webService.py
 
 CMD flask run --host=0.0.0.0
